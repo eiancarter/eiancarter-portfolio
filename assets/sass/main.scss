@@ -470,7 +470,7 @@
 	}
 
 	input[type="checkbox"],
-	input[type="radio"], {
+	input[type="radio"] {
 		@include vendor('appearance', 'none');
 		display: block;
 		float: left;
@@ -808,7 +808,7 @@
 				}
 			}
 		}
-	}
+	} 
 
 /* Icons */
 
@@ -849,11 +849,11 @@
 				border-radius: _size(border-radius);
 				border: solid 1px _palette(border);
 				display: inline-block;
-				height: 8em;
-				line-height: 8em;
+				height: 2em;
+				line-height: 2em;
 				margin: 0;
 				text-align: center;
-				width: 8em;
+				width: 2em;
 
 				&:before {
 					@include vendor('transform', 'rotate(-45deg)');
@@ -1284,9 +1284,9 @@
 						padding: 2em;
 
 						.icon {
-							height: 8em;
-							line-height: 8em;
-							width: 8em;
+							height: 2em;
+							line-height: 2em;
+							width: 2em;
 						}
 					}
 				}
@@ -1334,9 +1334,9 @@
 						padding: 2em;
 
 						.icon {
-							height: 7em;
-							line-height: 7em;
-							width: 7em;
+							height: 2em;
+							line-height: 2em;
+							width: 2em;
 						}
 					}
 				}
@@ -1344,7 +1344,7 @@
 
 		/* Main */
 
-			.main {
+			.main { 
 				@include padding(5em, 3em);
 			}
 
@@ -1408,9 +1408,9 @@
 						padding: 1.5em;
 
 						.icon {
-							height: 5em;
-							line-height: 5em;
-							width: 5em;
+							height: 2em;
+							line-height: 2em;
+							width: 2em;
 
 							&:before {
 								font-size: 42px;
